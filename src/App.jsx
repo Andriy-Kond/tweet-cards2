@@ -8,12 +8,13 @@ const TweetsPage = lazy(() => import('./pages/Tweets/TweetsPage.jsx'));
 
 export const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<SharedLayout />}>
-        <Route index element={<HomePage />} />
-        <Route path="/tweets" element={<TweetsPage />}></Route>
-        <Route path="*" element={<Navigate to="/" />}></Route>
-      </Route>
-    </Routes>
+    <div>APP</div>
+    // <Routes>
+    //   <Route path="/" element={<SharedLayout />}>
+    //     <Route index element={<HomePage />} />
+    //     <Route path="/tweets" element={<TweetsPage />}></Route>
+    //     <Route path="*" element={<Navigate to="/" />}></Route>
+    //   </Route>
+    // </Routes>
   );
 };
