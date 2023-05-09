@@ -1,0 +1,17 @@
+.navContainer {
+  font-size: 24px;
+  background: black;
+}
+
+.ulContainer {
+  width: 100%;
+  gap: 5px;
+}
+
+.navRight {
+  margin-left: auto;
+
+  @media screen and (max-width: 991px) {
+    margin-left: 0;
+  }
+}

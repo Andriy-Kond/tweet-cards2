@@ -1,0 +1,19 @@
+.error {
+  font-size: 24px;
+}
+
+.errorTitle {
+  margin-top: 32px;
+
+  color: #c72929;
+}
+
+.errorDetails {
+  margin-top: 16px;
+}
+
+.errorText {
+  margin-top: 16px;
+
+  font-style: normal;
+}
