@@ -1,10 +1,10 @@
-import { lazy } from 'react';
-import { Navigate, Route, Routes } from 'react-router-dom';
+// import { lazy } from 'react';
+// import { Navigate, Route, Routes } from 'react-router-dom';
 
-import SharedLayout from 'Layout/SharedLayout';
-import HomePage from 'pages/Home/HomePage';
+// import SharedLayout from 'Layout/SharedLayout';
+// import HomePage from 'pages/Home/HomePage';
 
-const TweetsPage = lazy(() => import('./pages/Tweets/TweetsPage.jsx'));
+// const TweetsPage = lazy(() => import('./pages/Tweets/TweetsPage.jsx'));
 
 export const App = () => {
   return (
