@@ -5,7 +5,7 @@ import { Header } from './Header/Header';
 import { Footer } from './Footer/Footer';
 import { PreLoader } from './Preloader/PreLoader';
 
-export const SharedLayout = () => {
+const SharedLayout = () => {
   return (
     <Container>
       <main>
@@ -18,3 +18,5 @@ export const SharedLayout = () => {
     </Container>
   );
 };
+
+export default SharedLayout;
