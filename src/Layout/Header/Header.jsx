@@ -28,7 +28,7 @@ export const Header = () => {
               className={`navbar-nav me-auto mb-2 mb-lg-0 ${css.ulContainer}`}
             >
               <li className="nav-item">
-                <StyledNavLink to="/">Home</StyledNavLink>
+                <StyledNavLink to="./">Home</StyledNavLink>
               </li>
 
               <li className="nav-item">

@@ -42,7 +42,7 @@ const TweetsPage = () => {
 
   return (
     <div>
-      <Link to="/" className={`btn btn-outline-primary ${css.btn} `}>
+      <Link to="./" className={`btn btn-outline-primary ${css.btn} `}>
         На головну
       </Link>
 
